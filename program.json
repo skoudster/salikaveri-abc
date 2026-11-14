@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "programId": "salikaveri-fullbody-abc",
+  "version": "1.0.0",
+  "name": "Salikaveri ABC – koko kroppa",
+  "rotation": ["A", "B", "C"],
+  "profiles": {
+    "hypertrophy": {"label": "Lihaskasvu", "main": {"sets": 3, "minReps": 8, "maxReps": 12, "restSec": 120}, "accessory": {"sets": 3, "minReps": 10, "maxReps": 15, "restSec": 90}},
+    "strength": {"label": "Voima", "main": {"sets": 4, "minReps": 3, "maxReps": 6, "restSec": 180}, "accessory": {"sets": 3, "minReps": 8, "maxReps": 12, "restSec": 120}}
+  },
+  "workouts": {
+    "A": [
+      {"exerciseId": "squat", "name": "Takakyykky", "role": "main", "incrementKg": 2.5, "priority": 1, "alternatives": ["Jalkaprässi", "Goblet-kyykky"]},
+      {"exerciseId": "bench", "name": "Penkkipunnerrus", "role": "main", "incrementKg": 2.5, "priority": 1, "alternatives": ["Rintaprässi", "Käsipainopenkki"]},
+      {"exerciseId": "cable-row", "name": "Alataljasoutu", "role": "accessory", "incrementKg": 2.5, "priority": 1, "alternatives": ["Rintatuettu soutulaite"]},
+      {"exerciseId": "leg-curl", "name": "Takareisikoukistus laitteessa", "role": "accessory", "incrementKg": 2.5, "priority": 1},
+      {"exerciseId": "lateral-raise", "name": "Vipunosto sivulle", "role": "accessory", "incrementKg": 1, "priority": 2},
+      {"exerciseId": "plank", "name": "Lankku (lisäpaino tarvittaessa)", "role": "accessory", "incrementKg": 2.5, "priority": 2, "unit": "sec", "prescriptions": {"hypertrophy": {"sets": 3, "minReps": 30, "maxReps": 45}, "strength": {"sets": 3, "minReps": 30, "maxReps": 45}}}
+    ],
+    "B": [
+      {"exerciseId": "deadlift", "name": "Maastaveto", "role": "main", "incrementKg": 5, "priority": 1, "prescriptions": {"hypertrophy": {"sets": 3, "minReps": 5, "maxReps": 8}, "strength": {"sets": 3, "minReps": 3, "maxReps": 5}}, "alternatives": ["Romanialainen maastaveto"]},
+      {"exerciseId": "overhead-press", "name": "Pystypunnerrus", "role": "main", "incrementKg": 2.5, "priority": 1, "alternatives": ["Hartiaprässi"]},
+      {"exerciseId": "lat-pulldown", "name": "Ylätalja", "role": "accessory", "incrementKg": 2.5, "priority": 1, "alternatives": ["Avustettu leuanveto"]},
+      {"exerciseId": "leg-press", "name": "Jalkaprässi", "role": "accessory", "incrementKg": 5, "priority": 1},
+      {"exerciseId": "cable-crunch", "name": "Vatsarutistus taljassa", "role": "accessory", "incrementKg": 2.5, "priority": 2},
+      {"exerciseId": "biceps-curl", "name": "Hauiskääntö", "role": "accessory", "incrementKg": 1, "priority": 2}
+    ],
+    "C": [
+      {"exerciseId": "split-squat", "name": "Bulgarialainen askelkyykky", "role": "main", "incrementKg": 2, "priority": 1, "alternatives": ["Askelkyykky", "Hack-kyykky"]},
+      {"exerciseId": "incline-db-press", "name": "Vinopenkki käsipainoilla", "role": "main", "incrementKg": 2, "priority": 1, "alternatives": ["Vinorintaprässi"]},
+      {"exerciseId": "chest-supported-row", "name": "Rintatuettu soutulaite", "role": "accessory", "incrementKg": 2.5, "priority": 1},
+      {"exerciseId": "hip-thrust", "name": "Lantionnosto", "role": "accessory", "incrementKg": 5, "priority": 1, "alternatives": ["Pakaralaite"]},
+      {"exerciseId": "leg-extension", "name": "Reidenojennus laitteessa", "role": "accessory", "incrementKg": 2.5, "priority": 2},
+      {"exerciseId": "triceps-pushdown", "name": "Ojentajapunnerrus taljassa", "role": "accessory", "incrementKg": 2.5, "priority": 2}
+    ]
+  }
+}
