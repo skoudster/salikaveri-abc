@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "programId": "salikaveri-fullbody-abc",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "name": "Salikaveri ABC – yleinen aloitusohjelma",
   "rotation": [
     "A",
@@ -599,7 +599,57 @@
     ]
   },
   "announcement": {
-    "message": "Uusi harjoituspainotus: räjähtävyys! Kokeile kevyellä kuormalla ja hallitulla tekniikalla.",
-    "type": "info"
+    "type": "info",
+    "message": "Uutta: räjähtävä alku ABC-treeneihin! Pogot, hypyt ja kuntopalloheitot omana osionaan."
+  },
+  "explosive": {
+    "A": [
+      {
+        "id": "pogo",
+        "name": "Pogo-hypyt",
+        "dose": "2 × 12 kimmoisaa hyppyä",
+        "instructions": "Pienet nopeat hypyt päkiöiltä, polvet joustavat vain hieman. Pidä maakosketus lyhyenä.",
+        "priority": 1
+      },
+      {
+        "id": "broad-jump",
+        "name": "Broad jump – vauhditon pituushyppy",
+        "dose": "3 × 3 hyppyä",
+        "instructions": "Hyppää eteenpäin terävästi ja laskeudu pehmeästi. Palauta 60–90 s sarjojen välissä.",
+        "priority": 2
+      }
+    ],
+    "B": [
+      {
+        "id": "lateral-bound",
+        "name": "Sivuttaisloikat",
+        "dose": "2 × 4 / puoli",
+        "instructions": "Loikkaa sivulle ja pysäytä laskeutuminen hallitusti yhdelle jalalle.",
+        "priority": 1
+      },
+      {
+        "id": "medball-chest",
+        "name": "Kuntopallon rintaheitto",
+        "dose": "3 × 4 heittoa",
+        "instructions": "Heitä kevyttä kuntopalloa räjähtävästi tukevaa seinää vasten, jos tila sallii.",
+        "priority": 2
+      }
+    ],
+    "C": [
+      {
+        "id": "box-jump",
+        "name": "Box jump – korokehyppy",
+        "dose": "3 × 3 hyppyä",
+        "instructions": "Valitse matala, tukeva koroke; hyppää napakasti ja astu alas.",
+        "priority": 1
+      },
+      {
+        "id": "medball-rotation",
+        "name": "Kuntopallon kiertoheitto",
+        "dose": "2 × 4 / puoli",
+        "instructions": "Kierrä vartaloa ja heitä kevyttä palloa sivulle soveltuvaa seinää vasten.",
+        "priority": 2
+      }
+    ]
   }
 }
