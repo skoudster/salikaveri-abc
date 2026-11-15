@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "programId": "salikaveri-fullbody-abc",
-  "version": "1.1.0",
-  "name": "Salikaveri ABC – Aitofit-henkinen koko kroppa",
+  "version": "1.3.1",
+  "name": "Salikaveri ABC – yleinen aloitusohjelma",
   "rotation": [
     "A",
     "B",
@@ -63,13 +63,14 @@
         "alternatives": [
           "Hack-kyykky",
           "Jalkaprässi"
-        ]
+        ],
+        "startWeightKg": 0
       },
       {
-        "exerciseId": "bench",
-        "name": "Penkkipunnerrus",
+        "exerciseId": "db-bench-neutral",
+        "name": "Käsipainopenkki, neutraali/puolineutraali ote (kg / käsi)",
         "role": "main",
-        "incrementKg": 2.5,
+        "incrementKg": 1,
         "priority": 1,
         "prescriptions": {
           "hypertrophy": {
@@ -84,9 +85,10 @@
           }
         },
         "alternatives": [
-          "Rintaprässi",
-          "Käsipainopenkki"
-        ]
+          "Kapea penkkipunnerrus tangolla",
+          "Rintaprässi neutraalilla otteella"
+        ],
+        "startWeightKg": 0
       },
       {
         "exerciseId": "cable-row",
@@ -108,11 +110,12 @@
         },
         "alternatives": [
           "Rintatuettu soutulaite"
-        ]
+        ],
+        "startWeightKg": 0
       },
       {
         "exerciseId": "leg-curl",
-        "name": "Takareisikoukistus laitteessa",
+        "name": "Takareisikoukistus istuen laitteessa",
         "role": "accessory",
         "incrementKg": 2.5,
         "priority": 1,
@@ -127,11 +130,15 @@
             "minReps": 8,
             "maxReps": 10
           }
-        }
+        },
+        "alternatives": [
+          "Takareisikoukistus maaten laitteessa"
+        ],
+        "startWeightKg": 0
       },
       {
         "exerciseId": "lateral-raise",
-        "name": "Vipunostot sivulle",
+        "name": "Vipunostot sivulle käsipainoilla (kg / käsi)",
         "role": "accessory",
         "incrementKg": 1,
         "priority": 2,
@@ -146,11 +153,12 @@
             "minReps": 10,
             "maxReps": 15
           }
-        }
+        },
+        "startWeightKg": 0
       },
       {
         "exerciseId": "calf-raise",
-        "name": "Pohjenousu laitteessa",
+        "name": "Pohjenousu seisten pohjelaitteessa",
         "role": "accessory",
         "incrementKg": 2.5,
         "priority": 2,
@@ -165,26 +173,35 @@
             "minReps": 8,
             "maxReps": 12
           }
-        }
+        },
+        "alternatives": [
+          "Pohjenousu jalkaprässissä"
+        ],
+        "startWeightKg": 0
       },
       {
-        "exerciseId": "cable-crunch",
-        "name": "Vatsarutistus taljassa",
+        "exerciseId": "farmers-walk",
+        "name": "Farmer’s walk käsipainoilla (kg / käsi, sekuntia)",
         "role": "accessory",
-        "incrementKg": 2.5,
+        "incrementKg": 2,
         "priority": 2,
+        "unit": "sec",
         "prescriptions": {
           "hypertrophy": {
-            "sets": 2,
-            "minReps": 10,
-            "maxReps": 15
+            "sets": 3,
+            "minReps": 30,
+            "maxReps": 45
           },
           "strength": {
-            "sets": 2,
-            "minReps": 8,
-            "maxReps": 12
+            "sets": 3,
+            "minReps": 25,
+            "maxReps": 40
           }
-        }
+        },
+        "alternatives": [
+          "Farmer’s walk kahvakuulilla"
+        ],
+        "startWeightKg": 0
       }
     ],
     "B": [
@@ -208,13 +225,14 @@
         },
         "alternatives": [
           "Maastaveto korokkeelta"
-        ]
+        ],
+        "startWeightKg": 0
       },
       {
-        "exerciseId": "overhead-press",
-        "name": "Pystypunnerrus",
+        "exerciseId": "seated-db-shoulder-press",
+        "name": "Pystypunnerrus käsipainoilla istuen (kg / käsi)",
         "role": "main",
-        "incrementKg": 2.5,
+        "incrementKg": 1,
         "priority": 1,
         "prescriptions": {
           "hypertrophy": {
@@ -229,12 +247,14 @@
           }
         },
         "alternatives": [
-          "Hartiaprässi"
-        ]
+          "Landmine-punnerrus",
+          "Pystypunnerrus laitteessa neutraalilla otteella"
+        ],
+        "startWeightKg": 0
       },
       {
         "exerciseId": "lat-pulldown",
-        "name": "Ylätalja",
+        "name": "Ylätalja myötäotteella (hartioiden levyinen)",
         "role": "accessory",
         "incrementKg": 2.5,
         "priority": 1,
@@ -251,8 +271,10 @@
           }
         },
         "alternatives": [
+          "Ylätalja neutraalilla otteella",
           "Avustettu leuanveto"
-        ]
+        ],
+        "startWeightKg": 0
       },
       {
         "exerciseId": "leg-press",
@@ -274,7 +296,8 @@
         },
         "alternatives": [
           "Hack-kyykky"
-        ]
+        ],
+        "startWeightKg": 0
       },
       {
         "exerciseId": "chest-press",
@@ -296,11 +319,12 @@
         },
         "alternatives": [
           "Käsipainopenkki"
-        ]
+        ],
+        "startWeightKg": 0
       },
       {
         "exerciseId": "incline-curl",
-        "name": "Hauiskääntö vinopenkillä",
+        "name": "Hauiskääntö vinopenkillä käsipainoilla (kg / käsi)",
         "role": "accessory",
         "incrementKg": 1,
         "priority": 2,
@@ -315,7 +339,8 @@
             "minReps": 10,
             "maxReps": 14
           }
-        }
+        },
+        "startWeightKg": 0
       },
       {
         "exerciseId": "plank",
@@ -335,13 +360,14 @@
             "maxReps": 45
           }
         },
-        "unit": "sec"
+        "unit": "sec",
+        "startWeightKg": 0
       }
     ],
     "C": [
       {
         "exerciseId": "split-squat",
-        "name": "Bulgarialainen askelkyykky (toistot / jalka)",
+        "name": "Bulgarialainen askelkyykky Smithissä (toistot / jalka)",
         "role": "main",
         "incrementKg": 2,
         "priority": 1,
@@ -358,13 +384,15 @@
           }
         },
         "alternatives": [
+          "Bulgarialainen askelkyykky käsipainoilla",
           "Askelkyykky",
           "Hack-kyykky"
-        ]
+        ],
+        "startWeightKg": 0
       },
       {
         "exerciseId": "incline-db-press",
-        "name": "Vinopenkki käsipainoilla",
+        "name": "Vinopenkki käsipainoilla (kg / käsi)",
         "role": "main",
         "incrementKg": 2,
         "priority": 1,
@@ -382,11 +410,12 @@
         },
         "alternatives": [
           "Vinorintaprässi"
-        ]
+        ],
+        "startWeightKg": 0
       },
       {
         "exerciseId": "chest-supported-row",
-        "name": "Rintatuettu soutu",
+        "name": "Rintatuettu soutulaite",
         "role": "accessory",
         "incrementKg": 2.5,
         "priority": 1,
@@ -404,11 +433,12 @@
         },
         "alternatives": [
           "Alataljasoutu"
-        ]
+        ],
+        "startWeightKg": 0
       },
       {
         "exerciseId": "hip-thrust",
-        "name": "Hip thrust",
+        "name": "Hip thrust -laite",
         "role": "accessory",
         "incrementKg": 5,
         "priority": 1,
@@ -426,7 +456,8 @@
         },
         "alternatives": [
           "Pakaralaite"
-        ]
+        ],
+        "startWeightKg": 0
       },
       {
         "exerciseId": "leg-extension",
@@ -445,11 +476,12 @@
             "minReps": 10,
             "maxReps": 12
           }
-        }
+        },
+        "startWeightKg": 0
       },
       {
         "exerciseId": "triceps-pushdown",
-        "name": "Ojentajapunnerrus taljassa",
+        "name": "Ojentajapunnerrus taljassa, köysi",
         "role": "accessory",
         "incrementKg": 2.5,
         "priority": 2,
@@ -464,7 +496,8 @@
             "minReps": 8,
             "maxReps": 12
           }
-        }
+        },
+        "startWeightKg": 0
       },
       {
         "exerciseId": "face-pull",
@@ -483,7 +516,8 @@
             "minReps": 10,
             "maxReps": 15
           }
-        }
+        },
+        "startWeightKg": 0
       }
     ]
   }
