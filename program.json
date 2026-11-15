@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "programId": "salikaveri-fullbody-abc",
-  "version": "1.3.1",
+  "version": "1.5.0",
   "name": "Salikaveri ABC – yleinen aloitusohjelma",
   "rotation": [
     "A",
@@ -518,6 +518,68 @@
           }
         },
         "startWeightKg": 0
+      }
+    ]
+  },
+  "mobility": {
+    "A": [
+      {
+        "id": "hip-flexor",
+        "name": "Lonkan koukistajan venytys",
+        "dose": "45 s / puoli",
+        "instructions": "Puolikonttausasennossa vie lantiota rauhallisesti eteen, älä notkista alaselkää."
+      },
+      {
+        "id": "thoracic-open-book",
+        "name": "Rintarangan kierto kylkimakuulla",
+        "dose": "6 toistoa / puoli",
+        "instructions": "Polvet päällekkäin, kierrä yläkättä rauhassa auki katseen seuratessa."
+      },
+      {
+        "id": "chest-doorway",
+        "name": "Kevyt rintalihasvenytys",
+        "dose": "30 s / puoli",
+        "instructions": "Kyynärvarsi ovenpieleen ja pieni vartalon kierto; vain kivuton liikerata."
+      }
+    ],
+    "B": [
+      {
+        "id": "hamstring-dynamic",
+        "name": "Takareiden dynaaminen liikkuvuus",
+        "dose": "8 toistoa / puoli",
+        "instructions": "Ojenna jalkaa hallitusti ja koukista takaisin ilman pakottavaa venytystä."
+      },
+      {
+        "id": "child-pose-side",
+        "name": "Lapsen lepoasento, sivukurkotus",
+        "dose": "30 s / puoli",
+        "instructions": "Vie käsiä matolla sivulle ja hengitä rauhallisesti kylkeen."
+      },
+      {
+        "id": "wall-slide",
+        "name": "Lapaliuku seinää vasten",
+        "dose": "8 toistoa",
+        "instructions": "Liu’uta käsiä seinää pitkin ylös kivuttomalla liikeradalla."
+      }
+    ],
+    "C": [
+      {
+        "id": "hip-90-90",
+        "name": "90/90-lonkkakierrot",
+        "dose": "6 toistoa / puoli",
+        "instructions": "Vaihda polvien suuntaa rauhallisesti istuen; käsillä saa tukea."
+      },
+      {
+        "id": "glute-figure-four",
+        "name": "Pakaravenytys selinmakuulla",
+        "dose": "30 s / puoli",
+        "instructions": "Nilkka vastakkaisen polven päälle ja reisi kevyesti kohti vartaloa."
+      },
+      {
+        "id": "thoracic-extension",
+        "name": "Rintarangan ojennus penkin reunalla",
+        "dose": "8 toistoa",
+        "instructions": "Tue kyynärpäät penkkiin ja anna rintarangan ojentua kevyesti, älä paina olkapäätä kipuun."
       }
     ]
   }
