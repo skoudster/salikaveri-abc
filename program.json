@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "programId": "salikaveri-fullbody-abc",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "name": "Salikaveri ABC – yleinen aloitusohjelma",
   "rotation": [
     "A",
@@ -36,6 +36,21 @@
         "sets": 2,
         "minReps": 8,
         "maxReps": 12,
+        "restSec": 120
+      }
+    },
+    "explosive": {
+      "label": "Räjähtävyys",
+      "main": {
+        "sets": 3,
+        "minReps": 3,
+        "maxReps": 5,
+        "restSec": 150
+      },
+      "accessory": {
+        "sets": 2,
+        "minReps": 4,
+        "maxReps": 6,
         "restSec": 120
       }
     }
@@ -582,5 +597,9 @@
         "instructions": "Tue kyynärpäät penkkiin ja anna rintarangan ojentua kevyesti, älä paina olkapäätä kipuun."
       }
     ]
+  },
+  "announcement": {
+    "message": "Uusi harjoituspainotus: räjähtävyys! Kokeile kevyellä kuormalla ja hallitulla tekniikalla.",
+    "type": "info"
   }
 }
