@@ -2,3 +2,14 @@
 
 .mobility-section{margin:18px 0 8px;padding:15px;border:1px solid #345d59;background:#142b30;border-radius:15px}.mobility-section h3{margin:0}.mobility-item{padding:12px 0;border-top:1px solid #304a4c}.mobility-item:first-of-type{margin-top:12px}.mobility-item .small{margin-top:5px;line-height:1.45}.mobility-check{display:flex;gap:12px;align-items:flex-start;padding:13px 0;border-top:1px solid #304a4c;cursor:pointer}.mobility-check input{width:22px;height:22px;flex:0 0 22px;accent-color:#76e2b7;margin:1px 0}.mobility-check span span{display:block;margin-top:4px}.mobility-check input:checked+span>strong{color:#9bbfb3}
 .explosive-toggle{padding:13px 14px;background:#252e43;border:1px solid #495779;border-radius:13px;margin:12px 0}.explosive-toggle label{display:flex;gap:10px;align-items:center;cursor:pointer}.explosive-toggle input{width:22px;height:22px;accent-color:#76e2b7}.explosive-toggle p{margin:7px 0 0}.explosive-section{border-color:#6d5c3b;background:#30291e}.explosive-section .mobility-item,.explosive-section .mobility-check{border-color:#514631}
+
+/* Kehonhuollon kuittailu treenin lopetuksessa */
+.finish-overlay{position:fixed;inset:0;z-index:30;display:flex;align-items:center;justify-content:center;padding:20px;background:rgba(4,9,19,.84);overscroll-behavior:contain}
+.finish-dialog{width:100%;max-width:440px;max-height:calc(100dvh - 40px);overflow-y:auto;background:#17233a;border:1px solid #476179;border-radius:20px;padding:24px;box-shadow:0 22px 80px #0009}
+.finish-quote{font-size:21px;font-weight:700;line-height:1.4;letter-spacing:-.3px;margin:18px 0 8px}
+.finish-author{font-size:13px;color:#9ac9bc;margin:0 0 18px}
+.finish-dialog h2{font-size:19px;line-height:1.35;margin:0 0 10px}
+.finish-dialog .small{margin:0 0 20px}
+.finish-buttons{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.finish-buttons .btn{min-width:0;padding:12px 9px;font-size:14px}
+@media(max-width:380px){.finish-dialog{padding:18px}.finish-quote{font-size:19px}.finish-buttons{grid-template-columns:1fr}}
