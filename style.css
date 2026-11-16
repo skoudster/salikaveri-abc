@@ -48,3 +48,58 @@
 .history-delete{margin-top:15px;padding:8px 0}
 .history-more{margin:14px 0 18px}
 @media(max-width:370px){.history-stat{padding:12px}.history-stat-number{font-size:22px}.history-tile-numbers{gap:7px 10px}}
+
+/* Historia 2.1 – rauhallinen, avattava kehitysnäkymä */
+.progress-section{padding:0;overflow:hidden}
+.progress-toggle{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;background:none;color:inherit;border:0;padding:17px;text-align:left}
+.progress-toggle strong{display:block;font-size:17px}
+.progress-toggle small{display:block;color:#9db2c9;margin-top:4px;font-size:12px}
+.progress-toggle:focus-visible,.progress-muscle:focus-visible,.progress-period button:focus-visible,.progress-metric-tabs button:focus-visible,.progress-exercises-toggle:focus-visible{outline:2px solid #7de2b8;outline-offset:-2px}
+.progress-content{border-top:1px solid #2e4158;padding:16px}
+.progress-period{display:flex;gap:3px;justify-content:space-between;background:#0d1729;padding:4px;border-radius:11px;margin-bottom:19px}
+.progress-period button{flex:1;min-width:0;border:0;border-radius:8px;padding:10px 1px;background:none;color:#a9bdd2;font-size:12px;font-weight:650}
+.progress-period button.active{background:#2b4559;color:#e6fff2}
+.progress-main-number{display:flex;flex-direction:column;gap:4px;margin:5px 0 10px}
+.progress-index-value{font-size:39px;line-height:1.1;font-weight:850;letter-spacing:-1px;font-variant-numeric:tabular-nums;color:#baf4d6}
+.progress-chart{display:block;width:100%;height:auto;max-height:220px;margin:7px 0}
+.progress-empty{padding:20px 0}
+.progress-subheading{margin:25px 0 12px}
+.progress-muscle-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.progress-muscle{display:flex;flex-direction:column;align-items:flex-start;gap:5px;min-width:0;background:#1c2b40;color:#e7f0fb;border:1px solid #344a60;border-radius:13px;padding:12px;text-align:left}
+.progress-muscle.active{background:#183b39;border-color:#78d8b1}
+.progress-muscle-name{font-size:13px;font-weight:700}
+.progress-muscle strong{font-size:24px;font-variant-numeric:tabular-nums;line-height:1.2}
+.progress-spark{display:block;width:100%;height:34px}
+.progress-no-line{display:flex;align-items:center;min-height:34px;color:#8da6bc;font-size:10px}
+.progress-muscle-count{font-size:11px;color:#9fb8cd}
+.progress-detail{margin-top:16px;background:#0e1a2c;border:1px solid #2d435b;border-radius:14px;padding:14px}
+.progress-detail h3{margin-bottom:13px}
+.progress-metric-tabs{display:flex;gap:5px;background:#1c2b40;padding:4px;border-radius:10px}
+.progress-metric-tabs button{flex:1;border:0;border-radius:8px;background:transparent;color:#aebfd1;padding:9px 4px;font-size:12px;font-weight:700}
+.progress-metric-tabs button.active{background:#31516a;color:white}
+.progress-detail-stat{font-size:27px;font-weight:800;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-top:14px}
+.progress-detail-stat .small{font-weight:400}
+.progress-exercises-toggle{display:flex;justify-content:space-between;align-items:center;width:100%;border:1px solid #3b5569;background:#20354a;color:#bdf3d8;border-radius:10px;padding:12px;margin-top:14px;font-weight:700;font-size:13px;text-align:left}
+.progress-exercise-list{margin-top:8px}
+.progress-exercise-item{display:flex;justify-content:space-between;align-items:center;gap:8px;border-bottom:1px solid #304054;padding:11px 1px;font-size:13px}
+.progress-exercise-item:last-child{border:0}
+.progress-exercise-item span{min-width:0;overflow-wrap:anywhere}
+.progress-exercise-item small{display:block;color:#9fb3c7;margin-top:4px;font-size:11px}
+.progress-exercise-item strong{font-variant-numeric:tabular-nums;color:#a5edcf;font-size:17px}
+.progress-footnote{margin-top:15px;line-height:1.5}
+.progress-bars{margin-top:14px}
+.progress-bar-row{height:108px;display:flex;align-items:flex-end;justify-content:space-around;gap:6px;border-bottom:1px solid #455c73;padding:0 6px}
+.progress-bar-col{height:100%;flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:3px;min-width:0}
+.progress-bar{background:#75d9b0;border-radius:5px 5px 0 0;width:75%;max-width:35px;min-height:2px}
+.progress-bar-num{font-size:10px;color:#bbd7e8}
+.progress-bar-axis{display:flex;justify-content:space-between;color:#9db2c9;font-size:11px;margin-top:7px}
+@media(max-width:380px){.progress-content{padding:12px}.progress-muscle{padding:10px}.progress-period button{font-size:11px}}
+
+.progress-exercise-item{display:block;padding:0}
+.progress-exercise-trigger{display:flex;justify-content:space-between;align-items:center;gap:8px;width:100%;padding:12px 1px;border:0;background:transparent;color:inherit;text-align:left;font-size:13px}
+.progress-exercise-trigger:focus-visible{outline:2px solid #7de2b8;outline-offset:-2px}
+.progress-exercise-trigger span{min-width:0;overflow-wrap:anywhere}
+.progress-exercise-trigger strong{white-space:nowrap}
+.progress-exercise-trigger strong span{font-weight:400;color:#a5b9cc}
+.progress-exercise-chart{padding:5px 0 14px}
+.progress-exercise-chart .tiny{line-height:1.45;margin-bottom:0}

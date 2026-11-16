@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "programId": "salikaveri-fullbody-abc",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "name": "Salikaveri ABC – yleinen aloitusohjelma",
   "rotation": [
     "A",
@@ -79,7 +79,8 @@
           "Hack-kyykky",
           "Jalkaprässi"
         ],
-        "startWeightKg": 0
+        "startWeightKg": 0,
+        "muscleGroup": "legs"
       },
       {
         "exerciseId": "db-bench-neutral",
@@ -103,7 +104,8 @@
           "Kapea penkkipunnerrus tangolla",
           "Rintaprässi neutraalilla otteella"
         ],
-        "startWeightKg": 0
+        "startWeightKg": 0,
+        "muscleGroup": "chest"
       },
       {
         "exerciseId": "cable-row",
@@ -126,7 +128,8 @@
         "alternatives": [
           "Rintatuettu soutulaite"
         ],
-        "startWeightKg": 0
+        "startWeightKg": 0,
+        "muscleGroup": "back"
       },
       {
         "exerciseId": "leg-curl",
@@ -149,7 +152,8 @@
         "alternatives": [
           "Takareisikoukistus maaten laitteessa"
         ],
-        "startWeightKg": 0
+        "startWeightKg": 0,
+        "muscleGroup": "legs"
       },
       {
         "exerciseId": "lateral-raise",
@@ -169,7 +173,8 @@
             "maxReps": 15
           }
         },
-        "startWeightKg": 0
+        "startWeightKg": 0,
+        "muscleGroup": "shoulders"
       },
       {
         "exerciseId": "calf-raise",
@@ -192,7 +197,8 @@
         "alternatives": [
           "Pohjenousu jalkaprässissä"
         ],
-        "startWeightKg": 0
+        "startWeightKg": 0,
+        "muscleGroup": "legs"
       },
       {
         "exerciseId": "farmers-walk",
@@ -216,7 +222,8 @@
         "alternatives": [
           "Farmer’s walk kahvakuulilla"
         ],
-        "startWeightKg": 0
+        "startWeightKg": 0,
+        "muscleGroup": "core"
       }
     ],
     "B": [
@@ -241,7 +248,8 @@
         "alternatives": [
           "Maastaveto korokkeelta"
         ],
-        "startWeightKg": 0
+        "startWeightKg": 0,
+        "muscleGroup": "legs"
       },
       {
         "exerciseId": "seated-db-shoulder-press",
@@ -265,7 +273,8 @@
           "Landmine-punnerrus",
           "Pystypunnerrus laitteessa neutraalilla otteella"
         ],
-        "startWeightKg": 0
+        "startWeightKg": 0,
+        "muscleGroup": "shoulders"
       },
       {
         "exerciseId": "lat-pulldown",
@@ -289,7 +298,8 @@
           "Ylätalja neutraalilla otteella",
           "Avustettu leuanveto"
         ],
-        "startWeightKg": 0
+        "startWeightKg": 0,
+        "muscleGroup": "back"
       },
       {
         "exerciseId": "leg-press",
@@ -312,7 +322,8 @@
         "alternatives": [
           "Hack-kyykky"
         ],
-        "startWeightKg": 0
+        "startWeightKg": 0,
+        "muscleGroup": "legs"
       },
       {
         "exerciseId": "chest-press",
@@ -335,7 +346,8 @@
         "alternatives": [
           "Käsipainopenkki"
         ],
-        "startWeightKg": 0
+        "startWeightKg": 0,
+        "muscleGroup": "chest"
       },
       {
         "exerciseId": "incline-curl",
@@ -355,7 +367,8 @@
             "maxReps": 14
           }
         },
-        "startWeightKg": 0
+        "startWeightKg": 0,
+        "muscleGroup": "arms"
       },
       {
         "exerciseId": "plank",
@@ -376,7 +389,8 @@
           }
         },
         "unit": "sec",
-        "startWeightKg": 0
+        "startWeightKg": 0,
+        "muscleGroup": "core"
       }
     ],
     "C": [
@@ -403,7 +417,8 @@
           "Askelkyykky",
           "Hack-kyykky"
         ],
-        "startWeightKg": 0
+        "startWeightKg": 0,
+        "muscleGroup": "legs"
       },
       {
         "exerciseId": "incline-db-press",
@@ -426,7 +441,8 @@
         "alternatives": [
           "Vinorintaprässi"
         ],
-        "startWeightKg": 0
+        "startWeightKg": 0,
+        "muscleGroup": "chest"
       },
       {
         "exerciseId": "chest-supported-row",
@@ -449,7 +465,8 @@
         "alternatives": [
           "Alataljasoutu"
         ],
-        "startWeightKg": 0
+        "startWeightKg": 0,
+        "muscleGroup": "back"
       },
       {
         "exerciseId": "hip-thrust",
@@ -472,7 +489,8 @@
         "alternatives": [
           "Pakaralaite"
         ],
-        "startWeightKg": 0
+        "startWeightKg": 0,
+        "muscleGroup": "legs"
       },
       {
         "exerciseId": "leg-extension",
@@ -492,7 +510,8 @@
             "maxReps": 12
           }
         },
-        "startWeightKg": 0
+        "startWeightKg": 0,
+        "muscleGroup": "legs"
       },
       {
         "exerciseId": "triceps-pushdown",
@@ -512,7 +531,8 @@
             "maxReps": 12
           }
         },
-        "startWeightKg": 0
+        "startWeightKg": 0,
+        "muscleGroup": "arms"
       },
       {
         "exerciseId": "face-pull",
@@ -532,7 +552,8 @@
             "maxReps": 15
           }
         },
-        "startWeightKg": 0
+        "startWeightKg": 0,
+        "muscleGroup": "shoulders"
       }
     ]
   },
@@ -600,7 +621,7 @@
   },
   "announcement": {
     "type": "info",
-    "message": "Uutta: räjähtävä alku ABC-treeneihin! Pogot, hypyt ja kuntopalloheitot omana osionaan."
+    "message": "Uutta: lihasryhmäkohtaiset kehityskäyrät Historiassa! Harjoitusohjelman sisältö pysyy ennallaan."
   },
   "explosive": {
     "A": [
