@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "programId": "salikaveri-fullbody-abc",
-  "version": "1.8.0",
+  "version": "2.1.0",
   "name": "Salikaveri ABC – yleinen aloitusohjelma",
   "rotation": [
     "A",
@@ -563,19 +563,19 @@
         "id": "hip-flexor",
         "name": "Lonkan koukistajan venytys",
         "dose": "45 s / puoli",
-        "instructions": "Puolikonttausasennossa vie lantiota rauhallisesti eteen, älä notkista alaselkää."
+        "instructions": "Alkuasento: Mene toispolviseisontaan: toinen polvi lattialla, toinen jalka edessä ja jalkapohja maassa. Pidä ylävartalo pystyssä. Liike: Jännitä takimmaisen jalan pakaraa ja siirrä lantiota muutama sentti eteenpäin, kunnes tunnet venytyksen takimmaisen jalan lonkan etuosassa. Älä notkista alaselkää. Pidä 45 sekuntia ja vaihda puolta."
       },
       {
         "id": "thoracic-open-book",
         "name": "Rintarangan kierto kylkimakuulla",
         "dose": "6 toistoa / puoli",
-        "instructions": "Polvet päällekkäin, kierrä yläkättä rauhassa auki katseen seuratessa."
+        "instructions": "Alkuasento: Makaa kyljellä, lonkat ja polvet koukussa, polvet päällekkäin. Ojenna molemmat kädet suoraan eteen. Liike: Avaa päällimmäinen käsi isossa kaaressa kohti lattiaa selkäpuolellasi. Seuraa kättä katseella ja pidä polvet yhdessä. Palaa kädet päällekkäin. Tunne kevyt kierto yläselässä; tee 6 kertaa ja vaihda kylkeä."
       },
       {
         "id": "chest-doorway",
         "name": "Kevyt rintalihasvenytys",
         "dose": "30 s / puoli",
-        "instructions": "Kyynärvarsi ovenpieleen ja pieni vartalon kierto; vain kivuton liikerata."
+        "instructions": "Alkuasento: Seiso oviaukossa kylki ovenpielta kohti. Aseta saman puolen kyynärvarsi ovenpieleen, kyynärpää noin olkapään korkeudelle. Liike: Ota pieni askel eteen ja kierrä rintakehää poispäin kädestä, kunnes tunnet kevyen venytyksen rinnassa. Pidä olkapää rentona, älä pakota. 30 sekuntia kummallekin puolelle."
       }
     ],
     "B": [
@@ -583,19 +583,19 @@
         "id": "hamstring-dynamic",
         "name": "Takareiden dynaaminen liikkuvuus",
         "dose": "8 toistoa / puoli",
-        "instructions": "Ojenna jalkaa hallitusti ja koukista takaisin ilman pakottavaa venytystä."
+        "instructions": "Alkuasento: Istu lattialla selkä mahdollisimman suorana. Koukista toinen polvi ja pidä jalkapohja lattiassa; ojenna toinen jalka eteen kantapää lattialla. Liike: Kallistu lonkista hieman eteen kohti ojennettua jalkaa selkä pitkänä, kunnes takareidessä tuntuu kevyt venytys. Nouse takaisin pystympään. Tee 8 rauhallista toistoa ja vaihda jalkaa. Älä pyöristä selkää väkisin tai nykytä."
       },
       {
         "id": "child-pose-side",
         "name": "Lapsen lepoasento, sivukurkotus",
         "dose": "30 s / puoli",
-        "instructions": "Vie käsiä matolla sivulle ja hengitä rauhallisesti kylkeen."
+        "instructions": "Alkuasento: Mene polvillesi lattialle, istu pakaroita kohti kantapäitä ja kurota molemmat kädet lattiaa pitkin eteen. Liike: Kävele molempia käsiä noin 20–30 cm oikealle pitäen lantio mahdollisimman paikallaan. Tunne venytys vasemmassa kyljessä, hengitä rauhassa 30 sekuntia. Kävele kädet vasemmalle ja toista."
       },
       {
         "id": "wall-slide",
         "name": "Lapaliuku seinää vasten",
         "dose": "8 toistoa",
-        "instructions": "Liu’uta käsiä seinää pitkin ylös kivuttomalla liikeradalla."
+        "instructions": "Alkuasento: Seiso SELKÄ seinää vasten, jalat noin 15–30 cm seinästä. Nosta kädet sivuille W-asentoon: kyynärpäät koukussa noin 90 astetta ja kämmenselät kohti seinää. Liike: Liu’uta käsivarsia hitaasti seinää pitkin ylöspäin niin pitkälle kuin pääset ilman kipua tai alaselän notkistumista. Palauta W-asentoon. Kädet saavat irrota seinästä, jos liikkuvuus ei riitä. Tee 8 toistoa."
       }
     ],
     "C": [
@@ -603,25 +603,25 @@
         "id": "hip-90-90",
         "name": "90/90-lonkkakierrot",
         "dose": "6 toistoa / puoli",
-        "instructions": "Vaihda polvien suuntaa rauhallisesti istuen; käsillä saa tukea."
+        "instructions": "Alkuasento: Istu lattialla, polvet koukussa ja jalkapohjat lattialla hieman lantiota leveämmällä. Tue käsillä lattiaan vartalon taakse. Liike: Kallista molempia polvia hitaasti oikealle, kunnes jalat ovat suunnilleen 90/90-asennossa: toinen reisi edessä ja toinen sivulla. Nosta polvet keskelle ja laske vasemmalle. Pidä liike hallittuna ja tee 6 kertaa kummallekin puolelle."
       },
       {
         "id": "glute-figure-four",
         "name": "Pakaravenytys selinmakuulla",
         "dose": "30 s / puoli",
-        "instructions": "Nilkka vastakkaisen polven päälle ja reisi kevyesti kohti vartaloa."
+        "instructions": "Alkuasento: Makaa selälläsi polvet koukussa ja jalkapohjat lattialla. Aseta oikea nilkka vasemman reiden päälle lähelle polvea, jolloin jalat muodostavat numeron 4. Liike: Tartu vasemman reiden takaa ja vedä reittä varovasti kohti rintaa. Tunne venytys oikeassa pakarassa. Pidä 30 sekuntia ja vaihda puolta."
       },
       {
         "id": "thoracic-extension",
         "name": "Rintarangan ojennus penkin reunalla",
         "dose": "8 toistoa",
-        "instructions": "Tue kyynärpäät penkkiin ja anna rintarangan ojentua kevyesti, älä paina olkapäätä kipuun."
+        "instructions": "Alkuasento: Polvistu tukevan penkin eteen. Aseta kyynärpäät penkille hartioiden leveydelle, kädet yhdessä ja lantio polvien yläpuolella. Liike: Laske rintakehää rauhallisesti kohti lattiaa kyynärpäiden väliin pitäen alaselkä mahdollisimman neutraalina. Tunne kevyt avaus yläselässä ja olkapäissä. Palaa alkuun, tee 8 rauhallista toistoa ilman kipua."
       }
     ]
   },
   "announcement": {
     "type": "info",
-    "message": "Uutta: lihasryhmäkohtaiset kehityskäyrät Historiassa! Harjoitusohjelman sisältö pysyy ennallaan."
+    "message": "v2.1: Kehonhuolto-ohjeet selkeytetty. Jokaisessa liikkeessä kerrotaan alkuasento ja suoritus."
   },
   "explosive": {
     "A": [
