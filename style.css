@@ -103,3 +103,6 @@
 .progress-exercise-trigger strong span{font-weight:400;color:#a5b9cc}
 .progress-exercise-chart{padding:5px 0 14px}
 .progress-exercise-chart .tiny{line-height:1.45;margin-bottom:0}
+
+/* v2.1.2: sarjakohtainen syöttö ja liikekohtaiset taukokellot */
+.stepper{display:flex;align-items:center;min-width:0;gap:2px}.stepper input{flex:1;min-width:0;width:100%;padding:0 1px}.stepper button{flex:0 0 29px;height:44px;border:1px solid #3c506b;border-radius:9px;background:#283a52;color:#edf4ff;font-weight:800;font-size:20px;padding:0}.stepper button:disabled{opacity:.4}.set-grid input:disabled{opacity:.65;background:#1d2a3b}.rest-clock{margin:8px 0;color:#8be7c3;font-size:13px}.rest-clock strong{font-variant-numeric:tabular-nums;font-size:16px;margin-left:5px}.rest-clock[hidden]{display:none}

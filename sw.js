@@ -1,4 +1,4 @@
-const CACHE='salikaveri-abc-v2.1.1';
+const CACHE='salikaveri-abc-v2.1.2';
 const ASSETS=['./','./index.html','./app.js','./style.css','./program.json','./manifest.webmanifest','./icon.svg'];
 self.addEventListener('install',event=>{
   event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)));
