@@ -2,7 +2,7 @@
 const KEY='salikaveri_abc_data_v1';
 // Aseta tähän palautteen vastaanottava osoite ennen julkaisua.
 const FEEDBACK_EMAIL='skoudster@gmail.com';
-const APP_VERSION='2.2.0';
+const APP_VERSION='2.3.1';
 let restTicker=null;
 let swRegistration=null, updateWaiting=false, applyingUpdate=false, publishedProgram=null, programStatus='';
 
