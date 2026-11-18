@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "type": "explosive",
+  "exercises": [
+    {
+      "id": "pogo",
+      "name": "Pogo-hypyt",
+      "dose": "2 × 12 kimmoisaa hyppyä",
+      "instructions": "Pienet nopeat hypyt päkiöiltä, polvet joustavat vain hieman. Pidä maakosketus lyhyenä.",
+      "priority": 1,
+      "muscleGroups": [
+        "legs",
+        "core"
+      ],
+      "impact": "high"
+    },
+    {
+      "id": "broad-jump",
+      "name": "Broad jump – vauhditon pituushyppy",
+      "dose": "3 × 3 hyppyä",
+      "instructions": "Hyppää eteenpäin terävästi ja laskeudu pehmeästi. Palauta 60–90 s sarjojen välissä.",
+      "priority": 2,
+      "muscleGroups": [
+        "legs",
+        "core"
+      ],
+      "impact": "high"
+    },
+    {
+      "id": "lateral-bound",
+      "name": "Sivuttaisloikat",
+      "dose": "2 × 4 / puoli",
+      "instructions": "Loikkaa sivulle ja pysäytä laskeutuminen hallitusti yhdelle jalalle.",
+      "priority": 1,
+      "muscleGroups": [
+        "legs",
+        "core"
+      ],
+      "impact": "high"
+    },
+    {
+      "id": "medball-chest",
+      "name": "Kuntopallon rintaheitto",
+      "dose": "3 × 4 heittoa",
+      "instructions": "Heitä kevyttä kuntopalloa räjähtävästi tukevaa seinää vasten, jos tila sallii.",
+      "priority": 2,
+      "muscleGroups": [
+        "chest",
+        "shoulders",
+        "arms"
+      ],
+      "impact": "low"
+    },
+    {
+      "id": "box-jump",
+      "name": "Box jump – korokehyppy",
+      "dose": "3 × 3 hyppyä",
+      "instructions": "Valitse matala, tukeva koroke; hyppää napakasti ja astu alas.",
+      "priority": 1,
+      "muscleGroups": [
+        "legs",
+        "core"
+      ],
+      "impact": "high"
+    },
+    {
+      "id": "medball-rotation",
+      "name": "Kuntopallon kiertoheitto",
+      "dose": "2 × 4 / puoli",
+      "instructions": "Kierrä vartaloa ja heitä kevyttä palloa sivulle soveltuvaa seinää vasten.",
+      "priority": 2,
+      "muscleGroups": [
+        "core",
+        "shoulders"
+      ],
+      "impact": "low"
+    }
+  ]
+}
